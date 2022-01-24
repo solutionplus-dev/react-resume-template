@@ -1,10 +1,10 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "name": "Saif ur rehman qureshi papi chhaklas",
+    "occupation": "(Software Developer)",
+    "description": "Here will be your ahsfbajhsvfahjsdescription. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image": "https://picsum.photos/id/237/200/300",
+    "bio": "Use this bahsfbjahbjhasbjbshio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -52,26 +52,28 @@
         "degree": "Masters in Beer tasting",
         "graduated": "April 2007",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
+        "company": "Awesome abDesign Studio",
         "title": "Senior UX God ",
+        "link":"https://www.google.com",
         "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": ["Describe work, special projects, notable achievements, what technologies you have been working with, ", "and anything else that would be useful for an employer to know."],
+        "tools":["afhabsjh","ajfka","sabfjka","afashb"]
       },
       {
         "company": "Super Cool Studio",
         "title": "Junior bug fixer",
         "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": ["Describe work, special projects, notable achievements, what technologies you have been working with, ", "and anything else that would be useful for an employer to know."]
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "March 2007 - February 2010",
+        "description": ["Describe work, special projects, notable achievements, what technologies you have been working with, ", "and anything else that would be useful for an employer to know."]
       }
     ],
     "skills": [
@@ -107,35 +109,18 @@
   },
   "portfolio": {
     "projects": [
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
+      
       {
         "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "subtitle": "subtitle",
+        "date": "April 2007",
+        "images": ["https://picsum.photos/id/237/200/300","https://picsum.photos/id/237/200/300","https://picsum.photos/id/237/200/300",
+        "https://picsum.photos/id/237/200/300"],
+        "url": "http://www.timbakerdev.com",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc.",
+        "bullets": {"main":["http://www.timbakerdev.com","http://www.timbakerdev.com","http://www.timbakerdev.com"]},
+        "tools":["afhabsjh","ajfka","sabfjka","afashb"]
+
       }
     ]
   },

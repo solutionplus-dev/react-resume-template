@@ -1,41 +1,4 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   03-17-2014
-=====================================================================
-
-TOC:
-a. Webfonts and Icon fonts
-b. Reset
-c. Default Styles
-   1. Basic
-   2. Typography
-   3. Links
-   4. Images
-   5. Buttons
-   6. Forms
-d. Grid
-e. Others
-   1. Clearing
-   2. Misc
-
-=====================================================================  */
-
-/* ------------------------------------------------------------------ */
-/* a. Webfonts and Icon fonts
- ------------------------------------------------------------------ */
-
-@import url("fonts.css");
-@import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
-
-/* ------------------------------------------------------------------
-/* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
-/* ------------------------------------------------------------------ */
+-- */
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -147,7 +110,7 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	color: #2d2d2d;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -288,7 +251,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #f2044e;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -349,7 +312,7 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color:#f2044e;
 }
 .stats-tabs li a b {
 	display: block;
@@ -361,7 +324,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:#f2044e; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -436,7 +399,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #11ABB0;
+   background-color: #f2044e;
    color: #fff;
 }
 .pagination .inactive,
@@ -464,7 +427,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #f2044e;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
